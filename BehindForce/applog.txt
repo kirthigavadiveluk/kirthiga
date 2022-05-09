@@ -1,0 +1,6 @@
+INFO    2022-05-05 14:52:10,692 [main] HelloWorld  - this is a message....:welcome to sonar
+WARN    2022-05-05 14:52:10,693 [main] HelloWorld  - warning message...:welcome to sonar
+ERROR   2022-05-05 14:52:10,693 [main] HelloWorld  - error message...:welcome to sonar
+INFO    2022-05-06 10:08:44,587 [main] HelloWorld  - this is a message....:welcome to sonar
+WARN    2022-05-06 10:08:44,588 [main] HelloWorld  - warning message...:welcome to sonar
+ERROR   2022-05-06 10:08:44,588 [main] HelloWorld  - error message...:welcome to sonar
