@@ -8,6 +8,7 @@ public class ArrayInput {
 		int[] array = new int[3];
 		int sum = 0;
 		System.out.println("Enter the Elements:");
+		
 		for (int i = 0; i < 3; i++) {
 			array[i] = s1.nextInt();
 
