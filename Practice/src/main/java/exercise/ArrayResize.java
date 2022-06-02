@@ -10,6 +10,7 @@ public class ArrayResize {
 		for (int a : arr) {
 			System.out.println(a);
 		}
+		
 		List<Integer> List=new ArrayList<Integer>();
 		for(int a:arr) {
 			List.add(a);
