@@ -2,10 +2,10 @@
 public class StringDemo1 {
 
 	public static void main(String[] args) {
-		String name="kirthiga                          ";
+		String name="kirthiga  vadivelu   ";
 		String fname="jahnavi";
 		
-		 System.out.println(name);
+		System.out.println(name);
 		 
 		System.out.println(name.concat(fname));//concat
 		

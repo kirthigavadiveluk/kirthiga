@@ -14,7 +14,7 @@ public class StaticDemo1 {
 		veedu1.toilet("plastic..taps...");
 
 		House veedu2 = new House();
-		veedu2.toilet = "indian toilet...";
+		
 		System.out.println("Veedu2 saram...:" + House.saram);
 		System.out.println("Veedu2 toilet..:" + veedu2.toilet);
 		veedu2.toilet("steel tap....");
@@ -30,7 +30,7 @@ public class StaticDemo1 {
 
 class House {
 	static String saram;
-	String toilet;
+	static String toilet;
 
 	public void toilet(String tap) {
 		String taps = tap;

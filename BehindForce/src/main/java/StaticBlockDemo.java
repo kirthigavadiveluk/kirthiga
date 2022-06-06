@@ -8,9 +8,9 @@ public class StaticBlockDemo {
 
 
 		public static void main(String[] args) {
-			//new SBDemo();
-			SBDemo.met();
-			SBDemo.met2();
+			new SBDemo();
+			//SBDemo.met();
+			//SBDemo.met2();
 			
 		}
 	}
@@ -18,10 +18,8 @@ public class StaticBlockDemo {
 		static {
 			System.out.println("SBDemo static block called....");
 		}
-		SBDemo(){//constructor
-			System.out.println("constructor called...");
-		}
-		static void met() {
+		
+		static void met1() {
 			System.out.println("static method met called...");
 		}
 		
