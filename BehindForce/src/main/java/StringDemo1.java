@@ -1,7 +1,7 @@
 
 public class StringDemo1 {
 
-	public static void main(String[] args) {
+	static public  void main(String[] args) {
 		String name="kirthiga  vadivelu   ";
 		String fname="jahnavi";
 		
