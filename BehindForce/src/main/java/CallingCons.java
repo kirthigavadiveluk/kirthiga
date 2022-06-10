@@ -20,7 +20,7 @@ class C extends area {
 class CallingCons {
 	public static void main(String args[]) {
 		C c = new C();
-		
+
 		
 	}
 }
