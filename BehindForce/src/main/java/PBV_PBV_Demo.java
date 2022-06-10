@@ -4,7 +4,7 @@ public class PBV_PBV_Demo {
 	public static void main(String[] args) {
 
 		Laddu laddu = new Laddu();
-		laddu.size = 20;
+		laddu.size = 10;
 
 		System.out.println("Size of laddu before PBV..:" + laddu.size);// 10
 		new PBV().accept(laddu.size);
