@@ -1,8 +1,8 @@
 public class InherDemo3 {
 	public static void main(String[] args) {
-		Hall1 hall=new BirthDayHall();
+		Hall1 hall1=new BirthDayHall();
 		
-		hall=new MarriageHall();
+		hall1=new MarriageHall();
 	}
 }
 abstract class Hall1{

@@ -1,5 +1,5 @@
 
-public class InherDemo2 {
+public class InterDemo1 {
 
 	public static void main(String[] args) {
 		SevaiMaiyam sevai=new SevaiMaiyam();
