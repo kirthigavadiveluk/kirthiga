@@ -19,7 +19,7 @@ public class JDBCDemo2 {
 				String sql="update users set flag=? where uid=?";
 				PreparedStatement stmt=con.prepareStatement(sql);
 				
-				stmt.setInt(1, 1);
+				stmt.setInt(1, 3);
 				stmt.setInt(2, 4);
 				int noofrowschanged=stmt.executeUpdate();
 				

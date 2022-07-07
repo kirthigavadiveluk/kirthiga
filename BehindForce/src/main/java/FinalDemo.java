@@ -8,11 +8,11 @@ public class FinalDemo {
 
 }
 class VarTop1{
-	final int top=30;
+	int top=30;
 }
 class VarMed2 extends VarTop1{
 	  int top=20;
-	final public static void met() {
+	public static void met() {
 		
 	}
 }

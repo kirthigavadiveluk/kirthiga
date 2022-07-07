@@ -8,7 +8,7 @@ public class Consumer {
 		 Food food=new Food();
 		// veg Veg=food.getClass().getAnnotation(veg.class);
 		// if(Veg==null) {
-//			System.out.println("non vegetarian food...");
+		 //System.out.println("non vegetarian food...");
 		// }
 		// else {
 		// System.out.println("This is a vegetarian food..");
