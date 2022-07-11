@@ -1,4 +1,3 @@
-
 public class FinalDemo {
 
 	public static void main(String[] args) {
@@ -26,6 +25,6 @@ class VarBot3 extends VarMed2{
 final class Findemo{
 	
 }
-class findemo extends Findemo{//class cannot  be inherit
+//class findemo extends Findemo{//class cannot  be inherit
 	
-}
+//}

@@ -24,12 +24,12 @@ public class SessionTracker extends HttpServlet {
 		 session.putValue("tracker.count",count);
 		 out.println("<html><head><title>Session Tracker</title></head>");
 		 out.println("<body><h1>Session Tracking Demo</h1>");
-		 out.println("You've visited this page"+count+((count.intValue()==1)?"times.":"times."));
+		 out.println("You've visited this page"+count+((count.intValue()==1)?"time.":"times."));
 		 out.println("<p>");
 		 out.println("<h2> Here is your session data:</h2>");
-		 String []names=session.getValueNames();
+		 String[] names=session.getValueNames();
 		 for(int i=0;i<names.length;i++) {
-			 out.println(names[i]+":"+session.getValue(names[i]+"<br>"));
+			 out.println(names[i]+":"+session.getValue(names[i])+"<br>");
 		 }
 		 out.println("</body></html>");
 	 }
