@@ -1,6 +1,6 @@
 <%@page import="java.util.Enumeration"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,12 +9,17 @@
 </head>
 
 <body bgcolor="pink">
-<%
+	<%
 Enumeration em=session.getAttributeNames();
 while(em.hasMoreElements()){
 	String a=em.nextElement().toString();
 	String b=session.getAttribute(a).toString();
+	if(a.equals("action")||a.equals("nextshop"))
+	{
+		
+	}else{
 	out.println("<h1>"+a+":"+b+"<h1>");
+	}
 }
 %>
 </body>

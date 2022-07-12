@@ -6,7 +6,10 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+
 <body bgcolor="yellow">
+<hr>
+<jsp:include page="logout.jsp" />
 <h1>Vegetable Shop</h1>
 <form action="purchase.do" method=post>
 <input type="hidden" name="action" value="purchase">
