@@ -11,11 +11,14 @@
 <h1>Fruit Shop</h1>
 <form action="purchase.do" method="post">
 <input type="hidden" name="action" value="purchase">
-<input type="hidden" name="shop" value="FruitShop">
+
+<input type="hidden" name="nextshop" value="vegetable">
+
+
 <input type="radio" name="apple" value="rs50">Apple
 <input type="radio" name="mango" value="rs30">Mango
 <input type="radio" name="banana" value="rs20">Banana
-<input type="submit" value="Next">
+<input type="submit" value="Next Shop....">
 </form>
 </center>
 </body>

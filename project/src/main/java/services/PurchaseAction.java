@@ -12,7 +12,7 @@ public class PurchaseAction extends Action {
 		Enumeration em = request.getParameterNames();
 
 		HttpSession hs = request.getSession();
-
+		String nextshop=request.getParameter("nextshop");
 		while (em.hasMoreElements()) {
 
 			String a = em.nextElement().toString();
@@ -23,7 +23,7 @@ public class PurchaseAction extends Action {
 
 		}
 
-		return "Completed";
+		return nextshop;
 
 	}
 
