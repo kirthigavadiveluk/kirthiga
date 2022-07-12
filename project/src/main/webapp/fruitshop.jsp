@@ -12,7 +12,7 @@
 <form action="purchase.do" method="post">
 <input type="hidden" name="action" value="purchase">
 
-<input type="hidden" name="nextshop" value="vegetable">
+<input type="hidden" name="nextshop" value="shop2">
 
 
 <input type="radio" name="apple" value="rs50">Apple

@@ -9,6 +9,7 @@
 <body bgcolor="yellow">
 <h1>Vegetable Shop</h1>
 <form action="purchase.do" method=post>
+<input type="hidden" name="action" value="purchase">
 <input type="hidden" name="nextshop" value="shop3">
 
 <input type="checkbox" name="c4" value="Brinjal">Brinjal
