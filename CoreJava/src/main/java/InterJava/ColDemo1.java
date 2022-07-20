@@ -13,44 +13,12 @@ public class ColDemo1 {
 		list.add("aaaa");
 		list.add("bbbb");
 		list.add("cccc");
-		
-		System.out.println("Original Size..." + list.size());
-		
-		list.add("dddd");
-		System.out.println("Modified..add.." + list.size());
-		
-		list.remove(0);
-		System.out.println("Modified..remove.." + list.size());
-		
-		System.out.println(list.get(1));
-		
-		System.out.println(list);
-		
-		for (String s : list) {
-			System.out.println(s);
-		}
-		System.out.println(".........");
-		
-		for (int i = 0; i < list.size(); i++) {
-			System.out.println(list.get(i));
-		}
-		System.out.println("*********");
+		list.add("eee");
+		list.add("eee");
 		
 		Iterator<String> iter = list.iterator();
 		while (iter.hasNext()) {
 			System.out.println(iter.next());
 		}
-		System.out.println("===========");
-		
-		ListIterator<String> lit = list.listIterator();
-		while (lit.hasNext()) {
-			System.out.println(lit.next());
-
-		}
-		System.out.println("----------");
-		while (lit.hasPrevious()) {
-			System.out.println(lit.previous());
-		}
 	}
-
 }

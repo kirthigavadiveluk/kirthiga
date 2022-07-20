@@ -11,6 +11,7 @@ public class ColDemo7 {
 		TreeMap tm = new TreeMap();
 		tm.put("101", "Riya");
 		tm.put("102", "AAAA");
+		tm.put("103","");
 		System.out.println(tm);
 		
 		System.out.println(tm.get("102"));

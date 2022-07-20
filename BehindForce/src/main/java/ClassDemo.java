@@ -15,7 +15,7 @@ class Demo {
 	public class ClassDemo {
 		
 
-		public static void main(String[] args) {
+		public void main(String[] args) {
 			
 			
 			Demo obj = new Demo();

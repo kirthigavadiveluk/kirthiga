@@ -11,6 +11,7 @@ public class ColDemo8 {
 		HashMap<String, String> hm = new HashMap<String, String>();
 		hm.put("101", "eeee");
 		hm.put("102", "ggg");
+		hm.put("101", "");
 		System.out.println(hm);
 		System.out.println(hm.get("101"));
 

@@ -2,6 +2,7 @@ package jdbcpack;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class JDBCDemo1 {
@@ -23,5 +24,15 @@ public class JDBCDemo1 {
 				//step 4 - process result
 				
 				System.out.println("No of rows updated...:"+noofrowschanged);
+				String sq="select * from users";
+				Statement st=con.createStatement();
+				
+				ResultSet rs=st.executeQuery(sq);
+				
+				//step 4 - process result
+				
+				while(rs.next()) {
+					System.out.println(rs.getInt("uid")+":"+rs.getString("uname"));
+				}
 			}
 		}

@@ -6,13 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<body>
 
-<body bgcolor="blue">
-<center>
-<form action="logout.do" method="post">
-<input name="action" value="logout" type="hidden">
-<input type="submit" value="logout">
-</form>
-</center>
 </body>
 </html>

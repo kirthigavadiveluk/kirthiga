@@ -11,7 +11,7 @@ public class JDBCDemo11 {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		//Step 2 - Establish Connection
 		Connection con=DriverManager.getConnection
-				("jdbc:mysql://localhost:3306/anound","root","root");
+				("jdbc:mysql://localhost:3306/anoud","root","root");
 		
 		System.out.println(con);
 		//Step 3 - Execute sql statement

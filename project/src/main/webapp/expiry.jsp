@@ -6,13 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-
-<body bgcolor="blue">
-<center>
-<form action="logout.do" method="post">
-<input name="action" value="logout" type="hidden">
-<input type="submit" value="logout">
-</form>
-</center>
+<body>
+<h1>Your Session Is Expired...Please<a href="login.jsp">Click Here To Login</a></h1>
 </body>
 </html>
