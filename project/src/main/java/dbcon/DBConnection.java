@@ -13,7 +13,6 @@ public class DBConnection {
 			e.printStackTrace();
 		}
 	}
-
 	public boolean checkUser(String uname, String upass) {
 		try {
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/anoud","root","root");
