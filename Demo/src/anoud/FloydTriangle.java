@@ -18,6 +18,7 @@ public class FloydTriangle {
 				System.out.print(number + " ");
 				// Incrementing the number value
 				number++;
+				
 			}
 			// For new line
 			System.out.println();

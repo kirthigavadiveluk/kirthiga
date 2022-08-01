@@ -17,7 +17,7 @@
 
 <input type="radio" name="apple" value="rs50">Apple
 <input type="radio" name="mango" value="rs30">Mango
-<input type="radio" name="banana" value="rs20">Banana
+<input type="radio" name="orange" value="rs20">Orange
 <input type="submit" value="Next Shop....">
 </form>
 </center>
