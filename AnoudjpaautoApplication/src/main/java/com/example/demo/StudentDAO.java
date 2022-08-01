@@ -8,6 +8,10 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface StudentDAO extends JpaRepository<Student, Integer>{
-	@Query("SELECT s FROM Student s where s.scity = ?1")
-	public List<Student> findBySage(String sage);
+	public List<Student> findByScity(String city);
+	public List<Student> findBySageGreaterThan(int age);
+
+
+	@Query("from Student where scity =?1 order by sname")
+	public List<Student> findByScitySorted(String city);
 }
