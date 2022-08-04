@@ -14,4 +14,5 @@ public interface StudentDAO extends JpaRepository<Student, Integer>{
 
 	@Query("from Student where scity =?1 order by sname")
 	public List<Student> findByScitySorted(String city);
+
 }
