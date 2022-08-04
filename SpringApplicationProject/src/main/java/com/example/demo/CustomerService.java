@@ -24,6 +24,12 @@ public class CustomerService {
 		this.cdao = cdao;
 	}
 
+	public void saveData(Customer cus) {
+
+		getCdao().save(cus);
+
+	}
+
 
 	public List<Customer> checkUser(String uname, String upass) {
 
@@ -43,4 +49,5 @@ public class CustomerService {
 		cd.setFlag(a);
 		getCdao().save(cd);
 	}
+
 }
