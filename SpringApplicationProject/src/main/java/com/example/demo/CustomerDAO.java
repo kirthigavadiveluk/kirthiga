@@ -11,5 +11,5 @@ public interface CustomerDAO extends JpaRepository<Customer, Integer> {
 	public List<Customer> CheckUser(String uname,String upass);
 	
 	@Query("from Customer order by uid ASC")
-	public List<Customer> checkuid(Customer d);
+	public List<Customer> checkuid(Customer cus);
 }

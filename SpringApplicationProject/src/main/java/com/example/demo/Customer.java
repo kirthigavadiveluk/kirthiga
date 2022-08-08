@@ -1,12 +1,14 @@
 package com.example.demo;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.Size;
 
 @Entity
 public class Customer {
 	@Id
+	
 	private int uid;
+	@Size(min=3, max=50)
 	private String uname;
 	private String upass;
 	private String phno;
@@ -49,4 +51,5 @@ public class Customer {
 	public void setFlag(int flag) {
 		this.flag = flag;
 	}
+	
 }

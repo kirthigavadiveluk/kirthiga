@@ -3,7 +3,7 @@ public class ConsDemo2 {
 	public static void main(String[] args) {
 		
 	
-	//new School();
+			//new School();
 			School school=School.createSchool();
 			System.out.println(school);
 			

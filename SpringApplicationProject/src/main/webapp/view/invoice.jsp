@@ -1,17 +1,21 @@
-	
+<jsp:include page="logout.jsp" />
 <%@page import="java.util.Enumeration"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-
-<body bgcolor="pink">
+<style>
+body{
+background-image:url("https://cdn.dribbble.com/users/992274/screenshots/12021931/media/d0a8c1449b59baa923797cfafc409f20.jpg");
+background-size:cover;
+}
+</style>
+<center><h1>Invoice</h1></center>
+<hr>
+<body>
 	<%
-Enumeration em=session.getAttributeNames();
+Enumeration<String> em=session.getAttributeNames();
 while(em.hasMoreElements()){
 	String a=em.nextElement().toString();
 	String b=session.getAttribute(a).toString();
@@ -23,5 +27,6 @@ while(em.hasMoreElements()){
 	}
 }
 %>
+
 </body>
 </html>
