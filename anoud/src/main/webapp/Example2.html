@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Handling Form Data</title>
+<script>
+	function chkfrm()
+	{
+		var x=document.Card.name.value;
+		if(x.length==0)
+			{
+			alert("Please Enter Name\n");
+			return false;
+			}
+		else
+			return true;
+	}
+</script>
+</head>
+<body>
+<form name="Card" method=post action="HelloServlet2" onsubmit="return chkfrm();">
+<center>
+<b>Enter Your Name : </b>
+<input type =text name="name"><p>
+<input type=submit>
+</center>
+</form>
+	
+</body>
+</html>

@@ -1,0 +1,21 @@
+INFO    2022-05-10 13:59:43,545 [main] anoud.StringDemo  - H
+INFO    2022-05-10 15:15:28,926 [main] anoud.StringDemo  - H
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - The sub str is...:loWorld
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - The value is..:loWo
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - The va...:-1
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - false
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - true
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - 65
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - 67
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - -2
+INFO    2022-05-10 15:15:28,927 [main] anoud.StringDemo  - 2
+INFO    2022-05-11 09:28:33,999 [main] anoud.StringDemo  - H
+INFO    2022-05-11 09:28:34,012 [main] anoud.StringDemo  - The sub str is...:loWorld
+INFO    2022-05-11 09:28:34,012 [main] anoud.StringDemo  - The value is..:loWo
+INFO    2022-05-11 09:28:34,012 [main] anoud.StringDemo  - The va...:-1
+INFO    2022-05-11 09:28:34,012 [main] anoud.StringDemo  - false
+INFO    2022-05-11 09:28:34,013 [main] anoud.StringDemo  - true
+INFO    2022-05-11 09:28:34,013 [main] anoud.StringDemo  - 65
+INFO    2022-05-11 09:28:34,013 [main] anoud.StringDemo  - 67
+INFO    2022-05-11 09:28:34,013 [main] anoud.StringDemo  - -2
+INFO    2022-05-11 09:28:34,013 [main] anoud.StringDemo  - 2
