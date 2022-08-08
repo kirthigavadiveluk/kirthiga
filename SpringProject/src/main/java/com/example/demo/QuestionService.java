@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import javax.persistence.Entity;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 
